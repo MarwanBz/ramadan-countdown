@@ -41,7 +41,7 @@
   opacity: .1999;
 }
 
-s .text-container {
+.text-container {
   font-size: 30px;
   color: #fff;
 }
@@ -59,15 +59,15 @@ span.ramadan {
   font-weight: bold;
 }
 
-.text-to {
-  display: none;
-}
-
 .text-from {
   display: none;
 }
 
-.text-from {
+.container--duringRamadan .text-to {
+  display: none;
+}
+
+.container--duringRamadan .text-from {
   display: inline-block;
 }
 
@@ -75,12 +75,13 @@ span.ramadan {
   display: flex;
 }
 
+/* !lanterns */
 .shape .lantern {
   animation: spin 1s infinite alternate ease-in-out;
   transform-origin: top;
 }
 
-/* !lanterns */
+
 .shape:nth-child(1) {
   transform: translate(75px, -16px)scale(1.5);
 }
