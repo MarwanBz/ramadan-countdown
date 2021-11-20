@@ -11,7 +11,6 @@
 
 body {
   overflow-x: hidden;
-  font-family: parment;
 }
 
 :root {
@@ -157,7 +156,7 @@ span.ramadan {
 }
 
 .star:nth-child(5) {
-  transform: translate(33px, -216px);
+  transform: translate(193px, -216px);
   animation: fade 1.8s infinite alternate linear;
   animation-delay: 3s;
 }
@@ -176,7 +175,7 @@ span.ramadan {
 }
 
 .star:nth-child(8) {
-  transform: translate(60px, -216px);
+  transform: translate(118px, -216px);
   animation: fade 1.5s infinite alternate ease-in-out;
   animation-delay: 2.5s;
 }
@@ -210,6 +209,8 @@ footer .footer-container h1 span {
   color: #f0ca22;
   display: inline-block;
   margin: 4px;
+  font-family: parment;
+  transform: rotate(3deg);
 
 }
 
