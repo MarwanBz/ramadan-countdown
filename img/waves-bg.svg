@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="287.741" viewBox="0 0 1080 287.741">
+  <g id="waves-bg" transform="translate(0 -300)">
+    <rect id="Rectangle_1" data-name="Rectangle 1" width="1080" height="287" transform="translate(0 300)" fill="#092233"/>
+    <path id="Path_1" data-name="Path 1" d="M0,471.389V357c90,.707,320.446,80.345,497.7,76.288S900,396.741,990,376.812L1080,357V644.741H0Z" transform="translate(0 -57)" fill="#285d82"/>
+    <path id="Path_2" data-name="Path 2" d="M0,525.174,90,511.1c90-14.157,245.52-59.286,425.52-58.783C695.52,452.9,900,499.205,990,513.865l90,14.66v51.1H0Z" transform="translate(0 8.115)" fill="#092233"/>
+  </g>
+</svg>

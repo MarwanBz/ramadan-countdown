@@ -4,11 +4,22 @@
   padding: 0;
 }
 
+@font-face {
+  font-family: parment;
+  src: url(/fonts/PermanentMarker-Regular.ttf);
+}
+
+body {
+  overflow-x: hidden;
+  font-family: parment;
+}
+
 :root {
   --background: #e4e4e4;
 }
 
 .container {
+  direction: rtl;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -38,7 +49,7 @@
   align-items: stretch;
   justify-content: center;
   width: 100vw;
-  opacity: .1999;
+  opacity: .2999;
 }
 
 .text-container {
@@ -47,7 +58,7 @@
 }
 
 span.ramadan {
-  color: gold;
+  color: #f0ca22;
   font-size: 50px;
   font-weight: bold;
   text-shadow: 1px 1px 6px #fff;
@@ -152,7 +163,7 @@ span.ramadan {
 }
 
 .star:nth-child(6) {
-  transform: translate(228px, -50px);
+  transform: translate(268px, -50px);
   animation: fade 2s infinite alternate linear;
   animation-delay: 2s;
 }
@@ -165,18 +176,42 @@ span.ramadan {
 }
 
 .star:nth-child(8) {
-  transform: translate(300px, -216px);
+  transform: translate(60px, -216px);
   animation: fade 1.5s infinite alternate ease-in-out;
   animation-delay: 2.5s;
 }
 
 .star:nth-child(9) {
-  transform: translate(109px, 135px)scale(.38);
+  transform: translate(-189px, 135px)scale(.38);
   animation: fade 1s infinite alternate linear;
   animation-delay: 5s;
 }
 
+/* !footer styling */
 
+footer .footer-container {
+  background: url(/img/waves-bg.svg)no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 170px;
+  background-color: #092233;
+}
+
+footer .footer-container h1 {
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  color: #fff;
+  padding: 30px 0 0 0;
+}
+
+footer .footer-container h1 span {
+  direction: ltr;
+  color: #f0ca22;
+  display: inline-block;
+  margin: 4px;
+
+}
 
 
 /* animation */
